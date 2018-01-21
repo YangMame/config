@@ -1,0 +1,13 @@
+/dev/sdb3           	/         	btrfs     	rw,relatime,ssd,noacl,space_cache,subvolid=5,subvol=/,compress=lzo	0 0
+
+efivarfs            	/sys/firmware/efi/efivars	efivarfs  	rw,relatime	0 0
+
+/dev/sdb1           	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro	0 2
+
+/dev/sda1           	/mnt/Files	btrfs     	rw,relatime,noacl,space_cache,subvolid=5,subvol=/,compress=lzo	0 0
+
+/dev/sdb2           	none      	swap      	defaults,pri=-2	0 0
+
+shm        /dev/shm        tmpfs        nodev,nosuid,noexec  0 0
+
+tmpfs		/var/tmp/portage		tmpfs	size=4G,uid=portage,gid=portage,mode=775,noatime	0 0

@@ -1,0 +1,14 @@
+User tor
+
+PIDFile /var/run/tor/tor.pid
+Log notice syslog
+
+DataDirectory   /var/lib/tor/data
+
+ControlPort 9051
+CookieAuthentication 1
+
+CookieAuthFile /var/lib/tor/auth/control_auth_cookie
+CookieAuthFileGroupReadable 1
+
+HTTPSProxy 127.0.0.1:8118
