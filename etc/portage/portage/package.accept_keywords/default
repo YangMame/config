@@ -1,0 +1,9 @@
+=sys-power/bbswitch-9999 **
+=x11-misc/bumblebee-9999 **
+=x11-misc/primus-0.2 ~amd64
+=media-libs/libmtp-9999 **
+=net-vpn/zeronet-9999 **
+=media-sound/scdl-9999 **
+# required by fractal (argument)
+=net-im/fractal-9999 **
+=app-vim/youcompleteme-99999999 **

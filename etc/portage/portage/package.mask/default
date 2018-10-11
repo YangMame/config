@@ -1,0 +1,5 @@
+sys-apps/systemd
+sys-fs/udev
+>www-client/chromium-69.0.3497.81
+>=sys-kernel/gentoo-sources-4.18.7
+
