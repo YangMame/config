@@ -1,16 +1,58 @@
 dev-lang/python sqlite
 app-portage/layman sync-plugin-portage
 net-vpn/zeronet tor
-app-i18n/fcitx gtk3 gtk2 opencc
-x11-themes/adapta-gtk-theme cinnamon
 net-wireless/wpa_supplicant -qt5
-app-misc/neofetch -X
-net-misc/connman iptables
+app-i18n/fcitx gtk3 gtk2 opencc
+media-sound/ncmpcpp visualizer clock outputs taglib
+net-misc/remmina rdp ssh vnc
+www-client/w3m imlib
+sys-kernel/gentoo-sources symlink
+app-editors/vim perl python ruby terminal python_single_target_python3_6 -python_single_target_python2_7
+mail-client/mutt crypt gpg smime
+#app-emulation/qemu static-user
+app-admin/keepassxc autotype browser network yubikey
+#app-arch/p7zip -kde
+kde-apps/okular chm djvu epub markdown mobi plucker
+kde-apps/krdc vnc
+kde-misc/kdeconnect mousepad app
+games-strategy/0ad editor
+dev-libs/libpcre2 pcre32
+# SimpleScreenRecorder
+media-video/simplescreenrecorder abi_x86_32
+media-libs/glu abi_x86_32
+virtual/glu abi_x86_32
+media-video/ffmpeg v4l webp
+net-misc/meganz-sdk qt libuv
 
-# Chormium
-sys-libs/zlib minizip 
+# Libreoffice
+dev-libs/xmlsec nss
+
+# Telegram
+x11-libs/libxkbcommon static-libs
+
+# Qemu
+#dev-libs/libpcre static-libs
+#sys-apps/attr static-libs
+#sys-libs/zlib static-libs
+#dev-libs/glib static-libs
+
+# ReText
+dev-python/markdown pygments
+dev-python/PyQt5 webengine python_targets_python3_6 webchannel
+app-editor/retext python_targets_python3_6
+dev-qt/qtwebengine widgets
+dev-qt/qtwebchannel qml
+
+
+# Chromium
+www-client/chromium jumbo-build
+net-libs/nodejs inspector
+sys-libs/zlib minizip
+dev-libs/icu abi_x86_32
+dev-libs/libxml2 abi_x86_32
 
 # Driver
+x11-base/xorg-server glamor
 x11-libs/libX11 abi_x86_32
 sys-libs/zlib abi_x86_32
 x11-proto/xf86bigfontproto abi_x86_32
@@ -24,16 +66,19 @@ x11-proto/xextproto abi_x86_32
 x11-proto/inputproto abi_x86_32
 dev-libs/libpthread-stubs abi_x86_32
 x11-libs/libXau abi_x86_32
-x11-proto/xcb-proto abi_x86_32
+x11-libs/libXrandr abi_x86_32
+x11-libs/libXrender abi_x86_32
+# move x11-proto/xcb-proto x11-base/xcb-proto
+x11-base/xcb-proto abi_x86_32
 x11-drivers/nvidia-drivers compat
 virtual/libffi abi_x86_32
 dev-libs/expat abi_x86_32
-dev-libs/wayland abi_x86_32
 dev-libs/libffi abi_x86_32
-
 x11-misc/primus abi_x86_32
+dev-libs/wayland abi_x86_32
 
 #Steam
+games-util/steam-client-meta steamfonts trayicon
 x11-proto/dri2proto abi_x86_32
 x11-proto/xf86vidmodeproto abi_x86_32
 x11-libs/libdrm abi_x86_32
@@ -50,7 +95,6 @@ sys-libs/gpm abi_x86_32
 x11-libs/libXfixes abi_x86_32
 x11-proto/xf86driproto abi_x86_32
 dev-libs/libffi abi_x86_32
-dev-libs/wayland abi_x86_32
 sys-libs/ncurses abi_x86_32 -gpm tinfo
 virtual/libffi abi_x86_32
 x11-proto/damageproto abi_x86_32
@@ -63,4 +107,3 @@ x11-libs/libXi abi_x86_32
 media-libs/libtxc_dxtn abi_x86_32
 media-libs/libsdl2 opengl
 media-libs/sdl2-mixer mp3 mad
-
